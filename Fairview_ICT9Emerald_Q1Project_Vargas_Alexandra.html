@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Carpenter Merch Site</title>
+    <link href="" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #ffe2e6;
+            color: #fff;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-family: 'Edwardian Script ITC', cursive;
+            margin: 0;
+            color: #ffc5cd;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: url('https://assets.teenvogue.com/photos/660afeaf9b5672eb77143bf4/16:9/w_1280,c_limit/sabrina%20skims%20hero.jpg') no-repeat center/cover;
+            color: #fff;
+            padding: 100px 20px;
+            margin-top: 60px;
+        }
+
+        #hero .hero-content {
+            flex: 1;
+        }
+
+        #hero .hero-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #ffe2e6;
+        }
+
+        #hero .hero-content p {
+            font-size: 1.5em;
+            color: #FFD700;
+        }
+
+        #hero .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        #hero .hero-image img {
+            max-width: 100%;
+        }
+
+        .btn {
+            background-color: #F9AAB0;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .music-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .music-item {
+            flex: 1;
+            max-width: calc(33% - 20px);
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .music-item img {
+            max-width: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        #about h2, #music h2, #contact h2 {
+            font-family: 'Edwardian Script ITC', cursive;
+            font-size: 2.5em;
+            color: #ffbdc7;
+        }
+
+        #contact form label, #contact form input, #contact form textarea, #contact form button {
+            font-family: 'Edwardian Script ITC', cursive;
+        }
+
+
+        .about-images {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 90px;
+        }
+
+        .about-images img {
+            width: 220px; 
+            height: auto; 
+            margin: 0 50px; 
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Spot</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to the Pop Princess' Web! </h2>
+            <p>Discover new merch and updates</p>
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO4bwDxS?si=rwiXHdR4RjS7b5MGTwHJow" class="btn" target="_blank">Listen to Music</a>
+        </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Sabrina</h2>
+            <p>Short n’ Sweet showcases the scintillating spirit of Sabrina Carpenter, the pocket-sized popstar with a larger than life artistic presence. With a gold album & multiple platinum singles under her belt, it’s no wonder that "Espresso", the debut single from the forthcoming album, has it all: lyrics that make you giggle & blush and songwriting that makes you wish you’d thought of it first.</p>
+
+        <div class="about-images">
+            <img src="https://i.pinimg.com/736x/95/56/41/9556410a13177ac1c7cde82b9f4efa93.jpg" alt="Sabrina Coquette" class="small-image">
+            <img src="https://i.pinimg.com/564x/57/e6/1c/57e61cec0d01f404e998372602bed523.jpg" alt="Heart swan" class="small-image">
+            <img src="https://i.pinimg.com/736x/ef/ee/bf/efeebfb20e7ab5d59ca693554e99bc0f.jpg" alt="Sabrina Coquette 2" class="small-image">
+            <img src="https://i.pinimg.com/736x/21/95/1b/21951bfdc57f88c2a742e8b3ce11a861.jpg" alt="Sabrina Glow stick" class="small-image">
+        </div>
+        </div>
+        </section>
+
+        </div>
+        </section>
+
+        <section id="music">
+        <div class="container">
+            <h2>Merch</h2>
+            <div class="music-grid">
+                <!-- First Album -->
+                <div class="music-item">
+                    <img src="https://i.pinimg.com/736x/3a/d8/d6/3ad8d65b90bcc4654a1881ab22a662a2.jpg" alt="Please please please">
+                    <h3>Please, Please, Please, t-shirt</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.digsterpop.de/p51-i0196177327665/sabrina-carpenter/please-please-please/index.html" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://lh3.googleusercontent.com/proxy/u-3OVF5uupJlIGmMlJM8y_ALCdU7fmgJfdXq6HYoYHZ3YnZWfJNI1MGZOHlf1QhnpnTttmlWSLVeh8PjHUBrEvOMLCHz0xsROdRAzZcdlsDauH-sMxt-ZClglZoXnl_lLbcuiqGbq6JIvCQ" alt="Merch">
+                    <h3>Sc knee socks</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.sabrinacarpenter.com/products/sc-knee-socks?_pos=1&_sid=70a17febf&_ss=r" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://lh5.googleusercontent.com/proxy/i5W2GcIGf730rSslMCY-w3eIrXoN8ZpGggRxsP4WH7xiB4JP6r3wX2JmhnH0m8Qs0TYunLsIvptT3GJaW1LY9vmCzUWAycbdWsazUiQt0GT0bL6PDiSZE_CPOadKVUfYhg2ZGbV3u_5UAj0bNK9YkbbZH0WdQk1xEGqR" alt="t-shirt Cover">
+                    <h3>I can't relate to desperation shirt</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.sabrinacarpenter.com/collections/all-merch/products/cant-relate-tee" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://lh5.googleusercontent.com/proxy/SWSYReCPdIvtGbnkUNH7Q14MKlQyl6MC_wb8U7PcweVJQztuZigFq1tLqVWBN4Kwgd5QNev7kNUt6GxiebAtbeNcBmj5okJDerTDlpwjwyBownmDVKB9dSGfGPU_" alt="Espresso">
+                    <h3>Sc shirt</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.sabrinacarpenter.com/products/espresso-photo-tee?_pos=4&_sid=87d37f275&_ss=r" class="btn" target="_blank">Buy</a>
+
+                </div>
+                <div class="music-item">
+                    <img src="https://lh6.googleusercontent.com/proxy/VNcGkhTdA2LDOxpInhpPewtcKvVTGxPLiU5N5yJabVf2xe90vC55xKfIsuOmm6SfUpQvuL13SBoK0tfnblotIXVIBdmSTETG6FTOtmLDPNbt5oeITMC2sQDqfGFDn_SOChBxWYM2Ffst3tDShg " alt="Tank top">
+                    <h3>Got you blocked crop top</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.sabrinacarpenter.com/collections/all-merch/products/got-you-blocked-crop-tank" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://i.pinimg.com/736x/7e/a7/20/7ea720e982c88dcc179dfb6b8b29c89c.jpg" alt="Kiss tote bag">
+                    <h3>Sc kiss tote bag</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://storeca.sabrinacarpenter.com/products/postcard-tote" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://lh5.googleusercontent.com/proxy/PL4CzEU08dFjlFnEEQnCVBOHG0w_Ed6A5q5uabWZEA7Zwo114ihIUxe7YS2UwR7dzlrHeNaVehb6MSPWpW6QEzOSBdr3kuo09N30x2VMmz3nODKPb7FuoKsRE3E229t2_lXM8hzHkaNhAdLJK_Cc4-b5w7f9HSc10BxDxRQD7gHMZCLO1XbpdFmEvn2U4iTaUnfPG5exnA" alt="Merch">
+                    <h3>That's that me crop tee</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.sabrinacarpenter.com/products/thats-that-me-crop-tee?_pos=6&_sid=87d37f275&_ss=r" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://img.thetedellis.com/v7/thetedellis.com/wp-content/uploads/2024/04/SABRINA-CARPENTER-Feather-Pink-7inch-Vinyl.jpg?org_if_sml=0" alt="Album Cover">
+                    <h3>Feather 7" Vinyl</h3>
+                    <p>Sabrina Carpenter</p>
+                    <a href="https://store.sabrinacarpenter.com/collections/all-music/products/feather-7-vinyl" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://img.thetedellis.com/v7/thetedellis.com/wp-content/uploads/2023/05/SABRINA-CARPENTER-Emails-I-Cant-Send-CD.jpg?org_if_sml=0&w=920" alt="Album Cover">
+                    <h3>Emails I Can't Send CD</h3>
+                    <p>Sabrina Carpenter</p>
+                     <a href="https://store.sabrinacarpenter.com/collections/all-music/products/emails-i-cant-send-cd" class="btn" target="_blank">Buy</a>
+                </div>
+                <div class="music-item">
+                    <img src="https://shop.universalmusic.it/cdn/shop/files/flat-Shortn_Sweet-AltCover.jpg?v=1721313070&width=1024" alt="Album Cover">
+                    <h3>Short n' Sweet Alternate Cover CD</h3>
+                    <p>Sabrina Carpenter</p>
+                     <a href="https://store.sabrinacarpenter.com/collections/all-music/products/short-n-sweet-alternate-cover-cd" class="btn" target="_blank">Buy</a>
+                </div>
+
+                <div class="music-item">
+                <img src="https://img.thetedellis.com/v7/thetedellis.com/wp-content/uploads/2024/07/SABRINA-CARPENTER-Short-N-Sweet-Vinyl-Light-Blue-1LP.jpg?org_if_sml=0&w=920" alt="Album Covert">
+             <h3>Blue Short N Sweet Vinyl</h3>
+               <p>Sabrina Carpenter</p>
+              <a href="https://thetedellis.com/shop/sabrina-carpenter-short-n-sweet-vinyl-light-blue-1lp/" class="btn" target="_blank">Buy</a>
+            </div>
+           </div>
+         </div>
+    </section>
+
+    <section id="limited-edition">
+    <div class="container">
+        <h2>Limited Edition Items</h2>
+        <div class="music-grid">
+            <div class="music-item">
+                <img src="https://recordstore.co.uk/cdn/shop/files/SabDeluxe_b96d178a-6a7d-4374-989b-c8cf69cb08ca.png?v=1724489430&width=800" alt="Limited Edition Product 1">
+                <h3>Short n' Sweet: Limited Deluxe 'Moonlight' Vinyl LP w/ Bonus Tracks!</h3>
+                <p>Sabrina Carpenter</p>
+                <a href="https://recordstore.co.uk/collections/sabrina-carpenter/products/short-n-sweet-bonus-track-lp?filter.v.availability=1" class="btn" target="_blank">Buy</a>
+            </div>
+            <div class="music-item">
+                <img src="https://recordstore.co.uk/cdn/shop/files/SC2_1ef673eb-9cd7-48ff-a3ee-e1baf98918eb.png?v=1724852345&width=1600" alt="Limited Edition Product 2">
+                <h3>Short n' Sweet: Limited Pink Vinyl LP (w/ Poster)</h3>
+                <p>Sabrina Carpenter</p>
+                <a href="https://recordstore.co.uk/products/short-n-sweet-limited-pink-vinyl-lp-w-poster?pr_prod_strat=pinned&pr_rec_id=0e4bbdb01&pr_rec_pid=9309687283992&pr_ref_pid=9432361304344&pr_seq=uniform" class="btn" target="_blank">Buy</a>
+            </div>
+            <div class="music-item">
+                <img src="https://recordstore.co.uk/cdn/shop/files/PD-_0002_PINK_PICDISC1_e2e2ecd0-8d5a-43d9-8fe8-d31b47972945.webp?v=1724316003&width=800" alt="Limited Edition Product 3">
+                <h3>Short n' Sweet: Picture Disc Vinyl LP</h3>
+                <p>Sabrina Carpenter</p>
+                <a href="https://recordstore.co.uk/products/short-n-sweet-picture-disc?pr_prod_strat=pinned&pr_rec_id=d25cf1d3d&pr_rec_pid=9310394614040&pr_ref_pid=9309687283992&pr_seq=uniform" class="btn" target="_blank">Buy</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Help</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <div>
+                <label for="message">Concerns:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+<html lang="en">
+<head>
+    <title>Sabrina Carpenter</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/564x/d9/e8/81/d9e881fffa7a7ea2e8cc7373e7ac2114.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Edwardian Script ITC', cursive;
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        .form-container {
+            background-image: url('https://i.pinimg.com/736x/a4/83/a0/a483a0b4400f729c2cc1f584653aa4ad.jpg');
+            padding: 20px;
+            border-radius: 10px;
+            background-size: cover;
+            margin: 20px auto;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: pink;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-family: 'Times New Roman';
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Customer Feedback</h1>
+        <form action=" ">
+            <label for="Name">Name</label>
+            <input type="text" id="Name" name="Name" required>
+
+            <label for="Age">Age</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="Thoughts">Feedback:</label>
+            <input type="radio" id="Bad" name="Thoughts" value="Bad">
+            <label for="Bad">Bad</label>
+            <input type="radio" id="Good" name="Thoughts" value="Good">
+            <label for="Good">Good</label>
+
+            <label for="section"></label>
+            <select id="sections" name="sections">
+                <option value="Unable to buy">Unable to buy</option>
+                <option value="Redirecting">Redirecting</option>
+                <option value="Glitching">Glitching</option>
+                <option value="Broken Links">Broken links</option>
+                 <option value="Security Breach">Security Breach</option>
+                 <option value="Incompatibility">Incompatibility</option>
+                 <option value="Other">Other</option>
+                 <option value="All">All</option>
+            </select>
+            </select>
+
+            <label for="why">Other</label>
+            <textarea rows="4" cols="30" placeholder="Type your answer here..." required></textarea>
+
+            <input type="submit" id="submit" name="submit" value="Please Please Please send">
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+    <footer>
+        <p>Made By Alexandra Milan E. Vargas</p>
+    </footer>
+</body>
+</html>
